@@ -16,7 +16,7 @@ Write a function that returns `True` if its argument is a palindrome and
 of characters which reads the same way backward as forward (e.g., `madam`, 
 `Able was I ere I saw Elba`, `10101`, `90.09`).
 
-# 3. k-mer counting
+# 4. k-mer counting
 
 Remember Exercise 2 (Analyse a repeat structure) from yesterday's assignment?
 
