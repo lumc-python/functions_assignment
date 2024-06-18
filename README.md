@@ -14,36 +14,21 @@ otherwise.
 Write a function that returns `True` if its argument is a palindrome and
 `False` otherwise. A palindrome is a word, number, phrase, or other sequence
 of characters which reads the same way backward as forward (e.g., `madam`, 
-`Able was I ere I saw Elba`, `10101`, `90.09`).
+`able was i ere i saw Elba`, `10101`, `90.09`).
 
 # 4. k-mer counting
 
-Remember Exercise 2 (Analyse a repeat structure) from yesterday's assignment?
+## 1. Remember "Exercise 3" (Analyse a repeat structure) from yesterday's assignment?
+ 
+- Make a function from your implementation that, given a sequence, it returns
+  a set with the unique substrings.
+- Make `k` as a default argument to the function.
+- Add a docstring to the function.
 
-    We are going to make a repeating DNA sequence and extract some subsequences
-    from it.
-    - Make a short tandem repeat that consists of three "ACGT" units and five
-      "TTATT" units.
-    - Print all suffixes of the repeat structure.
-      - **Note**: A suffix is an ending. For example, the word "spam" has five
-      suffixes: "spam", "pam", "am", "m" and "".
-    - Print all substrings of length 3.
-    - Print all unique substrings of length 3.
+## 2. Make another function with the same arguments (`sequence` and `k`) that uses
+a dictionary in the implementation with substring counts.
 
-    **Hint**: All elements in a set are unique.
-
-## (1/2)
-
-Perform the following:
-- Make a function from your implementation.
-- Have *k* as an argument to the function.
-- Test the function on several input strings.
-
-## (2/2)
-
-Modify your function to use a dictionary with substring counts.
 - Use the substrings as dictionary keys.
 - Use the counts as dictionary values.
 - Have the function return the dictionary.
 - Add a docstring to the function.
-- Use the function to print k-mer counts for some strings.
