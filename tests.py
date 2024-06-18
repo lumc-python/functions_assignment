@@ -66,7 +66,7 @@ def test_ex3(test_input, expected):
         ("ACG", 5, set()),
     ],
 )
-def test_ex3_unique_substrings(sequence, k, expected):
+def test_ex4_unique_substrings(sequence, k, expected):
     assert unique_substrings(sequence, k) == expected
 
 
@@ -83,5 +83,5 @@ def test_ex3_unique_substrings(sequence, k, expected):
         ("   ", 2, {"  ": 2}),
     ],
 )
-def test_ex3_kmer_counts(sequence, k, expected):
+def test_ex4_kmer_counts(sequence, k, expected):
     assert kmer_counts(sequence, k) == expected
